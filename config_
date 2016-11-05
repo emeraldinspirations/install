@@ -295,6 +295,7 @@ bindsym $mod+Control+Shift+d  exec date +%s | xclip -selection c
 
 # Desktop Image
 exec --no-startup-id nitrogen --restore
+exec_always compton
 exec_always --no-startup-id feh --bg-scale ~/Install/i3/wallpaper/current.png
 
 # Anamations

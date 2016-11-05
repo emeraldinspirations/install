@@ -15,6 +15,9 @@ ln -s ~/Install/i3/config_ ~/.i3/config
 
 # Note: config_ to be renamed when symbolic links on old partition re-directed
 
+# Install Compton
+sudo apt-get install compton
+
 # Install Desktop Background
 sudo apt install feh
 
