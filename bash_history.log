@@ -17,3 +17,6 @@ ln -s ~/Install/i3/config_ ~/.i3/config
 
 # Install Desktop Background
 sudo apt install feh
+
+# Install Lock
+sudo apt-get install i3lock scrot imagemagick xautolock
