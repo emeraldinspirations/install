@@ -23,3 +23,6 @@ sudo apt install feh
 
 # Install Lock
 sudo apt-get install i3lock scrot imagemagick xautolock
+
+# Install rofi
+sudo apt-get install rofi

@@ -1,0 +1,16 @@
+>>> Function Keys <<<
+01 - Sleep
+02 - Airplaine Mode
+03 - Keybord Brightness Down
+04 - Keybord Brigthness Up
+05 - Screen Brightness Down
+06 - Screen Brightness Up
+07 - Screen Blackout
+08 - Toggle Monitor Out
+09 - Toggle Mousepad
+10 - Volume Mute
+11 - Volume Down
+12 - Volume Up
+Calculator
+Pause (Break)
+Print Screen (System Rq)        = gnome-screenshot --interactive

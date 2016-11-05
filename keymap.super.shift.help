@@ -1,0 +1,93 @@
+>>> Super + Shift + Key <<<
+ ` - 
+ 1 - move to workspace 1
+ 2 - move to workspace 2
+ 3 - move to workspace 3
+ 4 - move to workspace 4
+ 5 - move to workspace 5
+ 6 - move to workspace 6
+ 7 - move to workspace 7
+ 8 - move to workspace 8
+ 9 - move to workspace 9
+ 0 - move to workspace 0
+ - -
+ = -
+ a - 
+ b -
+ c - i3 Reload Config File
+ d - 
+ e - Logout
+ f - 
+ g -
+ h - 
+ i - 
+ j -
+ k -
+ l - 
+ m - 
+ n -
+ o - 
+ p - 
+ q -
+ r - Restart i3
+ s - 
+ t - 
+ u -
+ v - 
+ w - 
+ x -
+ y -
+ z - 
+ [ -
+ ] -
+ \ -
+ ; -
+ ' -
+ , -
+ . -
+ / - rofi (Help)
+ * -
+ - - move scratchpad
+ + -
+Esc   - 
+F1    -
+F2    -
+F3    -
+F4    -
+F5    -
+F6    -
+F7    -
+F8    -
+F9    -
+F10   -
+F11   -
+F12   -
+PsBrk -
+PrtSc -
+Del   -
+Home  -
+PgUp  -
+PgDn  -
+Tab   - 
+Enter - 
+Up    - move up
+Down  - move down
+Left  - move left
+Right - move right
+BkSpc -
+Space - toggle floating
+
+>>> Function Keys <<<
+Sleep -
+Airpl -
+KeyDn -
+KeyUp -
+ScrDn -
+ScrUp -
+ScrBk -
+TgMon -
+TgMse -
+VolMt -
+VolDn -
+VolUp -
+Calc  -

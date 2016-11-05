@@ -1,0 +1,93 @@
+>>> Super + Key <<<
+ ` - 
+ 1 - workspace 1
+ 2 - workspace 2
+ 3 - workspace 3
+ 4 - workspace 4
+ 5 - workspace 5
+ 6 - workspace 6
+ 7 - workspace 7
+ 8 - workspace 8
+ 9 - workspace 9
+ 0 - workspace 0
+ - -
+ = -
+ a - focus parent
+ b -
+ c -
+ d - rofi -show run
+ e -
+ f - fullscreen
+ g - google-chrome
+ h - split h
+ i - border normal
+ j -
+ k -
+ l - exec ~/Install/i3/lockScreen.sh
+ m - exec i3-input -F 'rename workspace to "%s"' -P 'New name: 'r
+ n -
+ o - border none
+ p - border 1pixel
+ q -
+ r - mode "resize"
+ s - layout stacking
+ t - layout tabbed
+ u -
+ v - split v
+ w - layout toggle split
+ x -
+ y -
+ z - focus child
+ [ -
+ ] -
+ \ -
+ ; -
+ ' -
+ , -
+ . -
+ / - rofi (Help)
+ * -
+ - - scratchpad show
+ + -
+Esc   - 
+F1    -
+F2    -
+F3    -
+F4    -
+F5    -
+F6    -
+F7    -
+F8    -
+F9    -
+F10   -
+F11   -
+F12   -
+PsBrk -
+PrtSc -
+Del   -
+Home  -
+PgUp  -
+PgDn  -
+Tab   - rofi -show window (alt+Tab also works)
+Enter - i3-sensible-terminal
+Up    - focus up
+Down  - focus down
+Left  - focus left
+Right - focus right
+BkSpc -
+Space - focus mode_toggle
+
+>>> Function Keys <<<
+Sleep -
+Airpl -
+KeyDn -
+KeyUp -
+ScrDn -
+ScrUp -
+ScrBk -
+TgMon -
+TgMse -
+VolMt -
+VolDn -
+VolUp -
+Calc  -
