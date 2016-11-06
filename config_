@@ -356,6 +356,7 @@ bar {
 
 bindsym $mod+Control+d        exec date +"%Y-%m-%d %T" | xclip -selection c
 bindsym $mod+Control+Shift+d  exec date +%s | xclip -selection c
+#bindsym $mod+Control+w        exec i3-sensible-terminal -e iwlist wlp4s0 scan
 
 #################################
 # Autostart Applications	#
