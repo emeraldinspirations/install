@@ -1,2 +1,7 @@
+# Install Applciation
 sudo apt-get install ranger
-nano ~/.config/ranger/rc.conf
+
+# Apply Settings
+mkdir -p ~/.config/ranger
+ln -s ~/Install/ranger/rc.conf ~/.config/ranger/rc.conf
+
