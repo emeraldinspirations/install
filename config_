@@ -371,6 +371,35 @@ exec_always --no-startup-id feh --bg-scale ~/Install/i3/wallpaper/current.png
 # Application Defaults		#
 #################################
 for_window [class="chrome"] border none
+#################################
+# Volume                          #
+#################################
+# 121 = Mute
+# 122 = Volume Down
+# 123 = Volume Up
+
+# Pulse Audio controls
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# Sreen brightness controls
+#bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
+#bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
+
+# Touchpad controls
+#bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+
+# Media player controls
+#bindsym XF86AudioPlay exec playerctl play
+#bindsym XF86AudioPause exec playerctl pause
+#bindsym XF86AudioNext exec playerctl next
+#bindsym XF86AudioPrev exec playerctl previous
+
+#################################
+# Print screen                  #
+#################################
+bindsym Print exec gnome-screenshot --interactive
 
 #################################
 # Font Awesome			#
