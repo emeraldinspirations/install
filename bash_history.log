@@ -1,0 +1,2 @@
+sudo apt-get install ranger
+nano ~/.config/ranger/rc.conf
