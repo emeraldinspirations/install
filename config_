@@ -134,6 +134,8 @@ set $term exec i3-sensible-terminal
 bindsym Mod4+Return $term
 bindcode $mod+104 $term
 
+bindsym $mod+g exec google-chrome
+
 # kill focused window
 bindsym Mod4+Shift+q kill
 
@@ -370,7 +372,8 @@ exec_always --no-startup-id feh --bg-scale ~/Install/i3/wallpaper/current.png
 #################################
 # Application Defaults		#
 #################################
-for_window [class="chrome"] border none
+# for_window [class="chrome"] border none
+
 #################################
 # Volume                          #
 #################################
