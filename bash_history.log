@@ -1,4 +1,6 @@
 # Download from https://slack.com/downloads/linux
-mv ~/Downloads/slack-desktop-2.0.3-amd64.deb ~/Install/slack/
+mkdir -p ~/Install/slack/Downloads
+mv ~/Downloads/slack-desktop-* ~/Install/slack/Downloads
 
-sudo dpkg -i ~/Install/slack/slack-desktop-2.0.3-amd64.deb
+# Install slack
+sudo dpkg -i ~/Install/slack/Downloads/slack-desktop-*
