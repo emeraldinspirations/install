@@ -1,0 +1,4 @@
+sudo apt-get install compton
+
+# Add Symbolic Links
+ln -s ~/Install/compton/compton.conf ~/.config/compton.conf
