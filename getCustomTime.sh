@@ -43,8 +43,8 @@
     monthAbbr='♑'
   fi
 
-  weekNum=$(date '+%W');
+  weekNum=$(date '+%U');
   monthdayNum=$(date '+%d');
-  timeFormatted=$(date '+%I%M:%S');
+  timeFormatted=$(date '+%H%M:%S');
   
   echo "${weekNum}${weekdayAbbr}${monthdayNum}${monthAbbr} ${timeFormatted}"
