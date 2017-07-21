@@ -22,7 +22,7 @@ Here are the apps I install, ordered (partially) by how I install them.
 - phpunit
 - slack
 - vlc
-- dvd
+- [dvd](https://github.com/emeraldinspirations/install/blob/dvd/README.md)
 - [nodejs](https://github.com/emeraldinspirations/install/blob/nodejs/README.md)
 - [ionic](https://github.com/emeraldinspirations/install/blob/ionic/README.md)
 
