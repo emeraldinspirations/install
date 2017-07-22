@@ -1,6 +1,0 @@
-sudo apt-get install bluez-tools
-bt-device -l
-# LG HBS730 (00:18:6B:57:0A:76) 
-bt-audio -c 00:18:6B:57:0A:76
-bt-audio -d 00:18:6B:57:0A:76
-exit
