@@ -23,6 +23,7 @@ Here are the apps I install, ordered (partially) by how I install them.
 - slack
 - vlc
 - [dvd](https://github.com/emeraldinspirations/install/blob/dvd/README.md)
+- [bluez-tools](https://github.com/emeraldinspirations/install/blob/bluez-tools/README.md)
 - [nodejs](https://github.com/emeraldinspirations/install/blob/nodejs/README.md)
 - [ionic](https://github.com/emeraldinspirations/install/blob/ionic/README.md)
 
