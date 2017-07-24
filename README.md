@@ -7,25 +7,26 @@ In order to clone the files from the repo, run the following script replacing [a
 git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/install.git ~/Install/[app]
 ```
 
-Here are the apps I install, ordered (partially) by how I install them.
-- git
+Here are the apps I have installed listed alphabetically.
 - bash
-- zsh
-- i3
-- font-awesome
-- nano
-- ranger
-- google-chrome
-- lamp
+- [bluez-tools](https://github.com/emeraldinspirations/install/blob/bluez-tools/README.md)
 - composer
+- [dropbox](https://github.com/emeraldinspirations/install/blob/dropbox/README.md)
+- [dvd](https://github.com/emeraldinspirations/install/blob/dvd/README.md)
+- font-awesome
+- git
+- google-chrome
+- i3
+- [ionic](https://github.com/emeraldinspirations/install/blob/ionic/README.md)
+- lamp
+- nano
 - netbeans
+- [nodejs](https://github.com/emeraldinspirations/install/blob/nodejs/README.md)
 - phpunit
+- ranger
 - slack
 - vlc
-- [dvd](https://github.com/emeraldinspirations/install/blob/dvd/README.md)
-- [bluez-tools](https://github.com/emeraldinspirations/install/blob/bluez-tools/README.md)
-- [nodejs](https://github.com/emeraldinspirations/install/blob/nodejs/README.md)
-- [ionic](https://github.com/emeraldinspirations/install/blob/ionic/README.md)
+- zsh
 
 # Remove folders added by os installer, symbolically link to shared volume
 ```shell
