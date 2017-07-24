@@ -1,0 +1,5 @@
+mkdir -p ~/Install/dropbox/bin
+wget -O ~/Install/dropbox/bin/dropbox.py "https://www.dropbox.com/download?dl=packages/dropbox.py"
+chmod +x ~/Install/dropbox/dropbox.py
+ln -s ~/Install/dropbox/bin/dropbox.py dropboxcli
+sudo ln -s /home/emeraldinspirations/Install/dropbox/bin/dropbox.py /usr/bin/dropboxcli
