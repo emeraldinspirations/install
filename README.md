@@ -3,9 +3,9 @@
 # How I set up my computer
 > Application installation instructions and configuration files
 
-1. [Step 1 - Mount shared volume](#Step-1---Mount-shared-volume)
-2. [Step 2 - Replace shared folders with symbolic links](#Step-2---Replace -shared-folders-with-symbolic-links)
-3. [Step 3 - Install Applications](#Step-3---Install-Applications)
+1. [Step 1 - Mount shared volume](#user-content-step-1---mount-shared-volume)
+2. [Step 2 - Replace shared folders with symbolic links](#user-content-step-2---replace-shared-folders-with-symbolic-links)
+3. [Step 3 - Install Applications](#user-content-step-3---install-applications)
 
 ## Step (Future Notes) - How to set up BTRFS volume
 
