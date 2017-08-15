@@ -71,7 +71,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - i3
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
 - lamp
-- nano
+- [nano](https://github.com/emeraldinspirations/install/tree/nano)
 - netbeans
 - [nodejs](https://github.com/emeraldinspirations/install/tree/nodejs)
 - phpunit
@@ -90,7 +90,6 @@ ln -s ~/Install/bash/.bash_aliases .bash_aliases
 ln -s ~/Install/bash/.bashrc .bashrc
 ln -s ~/Install/git/.gitconfig .gitconfig
 ln -s ~/Install/i3/.i3status.conf .i3status.conf
-ln -s ~/Install/nano/.nanorc .nanorc
 ln -s ~/Install/zsh/oh-my-zsh/ .oh-my-zsh
 ln -s ~/Install/zsh/.zshrc .zshrc
 ```
