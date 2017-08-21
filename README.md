@@ -32,7 +32,7 @@ Invalid command 'VirtualDocumentRoot', perhaps misspelled or defined by a module
 ```
 
 #### Create wildcard virtual host
-Create file `/etc/apache2/sites-available/subdomain.dev.conf` (see [file](subdomain.dev.conf))
+Create file `/etc/apache2/sites-available/subdomain.dev.conf`
 ```apacheconf
 <VirtualHost *:80>
   ServerAlias localhost *.dev #wildcard catch all
@@ -72,7 +72,7 @@ sudo apt-get install dnsmasq
 > Since Ubuntu's NetworkManager uses dnsmasq, and since that messes things up a little for us:
 
 Open file `/etc/NetworkManager/NetworkManager.conf`, comment line:
-```
+```apacheconf
 # dns=dnsmasq
 ```
 
@@ -84,14 +84,14 @@ sudo restart network-manager
 #### Config dnsmasq to listen to local DNS queries
 
 Append to file `/etc/dnsmasq.conf`:
-```
+```apacheconf
 listen-address=127.0.0.1
 ```
 
 #### Config dnsmasq to resolve requests for `*.dev` domains
 
 Create file `/etc/dnsmasq.d/dev`:
-```
+```apacheconf
 address=/dev/127.0.0.1
 ```
 
@@ -103,7 +103,7 @@ sudo /etc/init.d/dnsmasq restart
 ### Have localhost resolve domain names
 
 Edit file `/etc/dhcp/dhclient.conf`, uncomment line:
-```
+```apacheconf
 prepend domain-name-servers 127.0.0.1;
 ```
 
