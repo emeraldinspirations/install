@@ -60,22 +60,30 @@ In order to clone the files from the repo, run the following script replacing [a
 git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/install.git ~/Install/[app]
 ```
 
+- atom
+- bash
 - [apache2](https://github.com/emeraldinspirations/install/tree/apache2)
 - bash
 - [bluez-tools](https://github.com/emeraldinspirations/install/tree/bluez-tools)
+- clustergit
 - composer
+- compton
 - [dropbox](https://github.com/emeraldinspirations/install/tree/dropbox)
 - [dvd](https://github.com/emeraldinspirations/install/tree/dvd)
 - font-awesome
 - [gimp](https://github.com/emeraldinspirations/install/tree/gimp)
 - git
+- gksu
 - google-chrome
 - i3
+- i3blocks
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
 - lamp
+- librecad
 - [nano](https://github.com/emeraldinspirations/install/tree/nano)
-- netbeans
 - [nodejs](https://github.com/emeraldinspirations/install/tree/nodejs)
+- numlockx
+- phpdocumentor
 - phpunit
 - ranger
 - slack
