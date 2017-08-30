@@ -60,9 +60,8 @@ In order to clone the files from the repo, run the following script replacing [a
 git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/install.git ~/Install/[app]
 ```
 
-- atom
-- bash
 - [apache2](https://github.com/emeraldinspirations/install/tree/apache2)
+- atom
 - bash
 - [bluez-tools](https://github.com/emeraldinspirations/install/tree/bluez-tools)
 - clustergit
@@ -79,7 +78,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - i3blocks
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
 - lamp
-- librecad
+- [librecad](https://github.com/emeraldinspirations/install/tree/librecad)
 - [nano](https://github.com/emeraldinspirations/install/tree/nano)
 - [nodejs](https://github.com/emeraldinspirations/install/tree/nodejs)
 - numlockx
