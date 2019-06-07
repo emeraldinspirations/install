@@ -17,20 +17,24 @@ lsblk
 NAME                    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 sr0                      11:0    1  1024M  0 rom  
 sda                       8:0    0 931.5G  0 disk 
-├─sda4                    8:4    0  97.7G  0 part 
-├─sda2                    8:2    0   900M  0 part 
-├─sda10                   8:10   0 395.3G  0 part 
-│ ├─linuxvg-home_shared 253:1    0    55G  0 lvm  /mnt/home_shared
-│ ├─linuxvg-backup2     253:6    0    50G  0 lvm  
-│ ├─linuxvg-ubuntu1610  253:4    0    50G  0 lvm  /home
-│ ├─linuxvg-grub        253:2    0   500M  0 lvm  
-│ ├─linuxvg-swap        253:0    0    16G  0 lvm  [SWAP]
-│ ├─linuxvg-os          253:5    0   100G  0 lvm  
-│ └─linuxvg-iso         253:3    0    20G  0 lvm  
-├─sda5                    8:5    0  48.8G  0 part 
-├─sda3                    8:3    0   128M  0 part 
-├─sda1                    8:1    0   100M  0 part /boot/efi
-└─sda6                    8:6    0    15G  0 part 
+├─sda4                    8:4    0  97.7G  0 part                   | ntfs shared partition
+├─sda2                    8:2    0   900M  0 part                   | Winblows recovery
+├─sda10                   8:10   0 395.3G  0 part                   | lvm2
+│ ├─linuxvg-home_shared 253:1    0    55G  0 lvm  /mnt/home_shared  | Home directory
+│ ├─linuxvg-backup2     253:6    0    50G  0 lvm                    | (Ignore)
+│ ├─linuxvg-ubuntu1610  253:4    0    50G  0 lvm  /home             | To be moved -> os/ubuntu1610
+│ ├─linuxvg-grub        253:2    0   500M  0 lvm                    | (Future Master GRUB)
+│ ├─linuxvg-swap        253:0    0    16G  0 lvm  [SWAP]            | (Ignore)
+│ ├─linuxvg-os          253:5    0   100G  0 lvm                    | All OSes
+│ │ ├─ubuntu1904
+│ │ ├─ubuntu1610 (future)
+│ │ ├─ubuntu1510 (future)
+│ │ └─...
+│ └─linuxvg-iso         253:3    0    20G  0 lvm                    | All ISO files
+├─sda5                    8:5    0  48.8G  0 part                   | ISO <<< burned partition
+├─sda3                    8:3    0   128M  0 part                   | Winblows reserved
+├─sda1                    8:1    0   100M  0 part /boot/efi         | "EFI system partition"
+└─sda6                    8:6    0    15G  0 part                   | Winblows restore
 ```
 
 ```shell
