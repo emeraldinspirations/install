@@ -1,0 +1,3 @@
+```shell
+sudo update-grub
+```

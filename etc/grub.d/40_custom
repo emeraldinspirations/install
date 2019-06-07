@@ -5,9 +5,8 @@ exec tail -n +3 $0
 # the 'exec tail' line above.
 
 menuentry “TestMenuEntry 2018-06-16T2347+0600” {
-set isofile=”/ubuntu-18.04-desktop-amd64.iso”
-loopback loop (hd0,5)$isofile
-linux (loop)/casper/vmlinuz.efi boot=casper iso-scan/filename=${isofile} quiet splash
+loopback loop (hd0,5)
+linux (loop)/casper/vmlinuz.efi boot=casper quiet splash
 initrd (loop)/casper/initrd.lz
 
 }
