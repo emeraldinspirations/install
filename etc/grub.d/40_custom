@@ -5,7 +5,7 @@ exec tail -n +3 $0
 # the 'exec tail' line above.
 
 menuentry "TestMenuEntry 2018-06-16T2347+0600" {
-  set root = (hd1,gpt5)
+  set root=(hd0,gpt5)
   linux /casper/vmlinuz boot=casper
   initrd /casper/initrd
 }
