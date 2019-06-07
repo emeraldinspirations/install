@@ -67,6 +67,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - clustergit
 - composer
 - compton
+- docker
 - [dropbox](https://github.com/emeraldinspirations/install/tree/dropbox)
 - [dvd](https://github.com/emeraldinspirations/install/tree/dvd)
 - font-awesome
