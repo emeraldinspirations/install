@@ -75,6 +75,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - git
 - gksu
 - google-chrome
+- [grub](https://github.com/emeraldinspirations/install/tree/grub)
 - i3
 - i3blocks
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
@@ -87,6 +88,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - phpunit
 - ranger
 - slack
+- [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
 - zsh
 
