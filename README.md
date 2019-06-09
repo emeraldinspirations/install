@@ -185,7 +185,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - slack
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
-- zsh
+- [zsh](https://github.com/emeraldinspirations/install/tree/zsh)
 
 # install
 The applications and respective configuration files that I have on my personal machine
