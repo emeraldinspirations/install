@@ -16,6 +16,47 @@ The primary goal of this project is to be able to:
 3. Once completed, reboot computer once and (vertually) seemlessly transition 
    to using new OS
 
+## My email setup
+
+Whenever I install an operating system, I create a new RSA keypair with an
+email address based on the following scheme:
+
+`[Handle]+[Computer ID]+[Operating System Version]@gmail.com`
+
+Handle
+: My primary handle has been `emeraldinspirations`.  I use it on all the social 
+  media / web services I use.  This provides a persistant "brand" accross
+  services.
+
+Computer ID
+: This is some abbreviated form of make/model and the last 4 digits of the 
+  serial number of the device.  At the time of writing, my primary machine is
+  an Asus Republic of Gamers Laptop with a serial number ending in 839h
+  `asusrog839h`
+
+Operating System Version
+: I primarilly use Ubuntu, and they version using a simple 4 digit YYMM 
+  numbering scheme.  At the writing of this, I am installing Ubuntu version
+  19.04 which I abbreviate `u1904`
+
+Putting it all together comes up with: 
+`emeraldinspirations+asusrog839h+u1904@gmail.com`
+
+## Why I use different emails for each device / os
+
+In a word: metadata.  If I was looking at a log, and what I was looking for I
+knew I did on a specific device (ex: my cell phone), then I have an easy way to
+filter out the entry I want.  Also, since I copy my dotfiles across various
+versions and devices, I sometimes need to keep different versions on different
+installs.  Each revison to the dotfiles is automatically tied to the relevant
+device / operating system / version.  
+
+It also helps with security.  If a device of mine is lost or stolen, even 
+though the keys are locked by my password, the security of the RSA key has been
+compromised.  I can easily go to each of my services and deactivate the
+compromised keys.  I can also deactivate keys for devices I retire, or OSes
+that I delete, without fear of blocking a working install.
+
 ## Why clean install vs upgrade
 
 ## Why BTRFS
