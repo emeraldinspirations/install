@@ -7,7 +7,58 @@
 2. [Step 2 - Replace shared folders with symbolic links](#user-content-step-2---replace-shared-folders-with-symbolic-links)
 3. [Step 3 - Install Applications](#user-content-step-3---install-applications)
 
+## Goal
+
+The primary goal of this project is to be able to:
+1. Install a fresh linux operating system on the same persistant storage medium
+   (hard-drive) as the existing linux operating system
+2. Install & configure new OS without leaving the old OS
+3. Once completed, reboot computer once and (vertually) seemlessly transition 
+   to using new OS
+
+## Why clean install vs upgrade
+
+## Why BTRFS
+
+## Why LVM
+
+## Why "Shared" subvolume & symbolic links vs shared `/home` volume
+
+## Why `~/Install` is local on each OS vs in `~/Shared`
+
+## Partition / Volume / Sub-Volume Setup
+
+# New computer
+
 ## Step (Future Notes) - How to set up BTRFS volume
+
+# Upgrade Operating System
+
+## Step 1 - Download new operating system
+
+* Download file to ISO volume
+* Append Hash Checksums to csv
+* Verify download against checksum
+
+## Step 2 - Create new subvolume for new operating system
+
+## Step 3 - Create virtual machine
+
+## Step 4 - Mount subvolume in virtual machine
+
+## Step 5 - Boot virtual machine using ISO as startup disc
+
+## Step 6 - Install new OS on subvolume using virtual machine
+
+## Step 7 - Clone Install repo, run script
+
+## Step ? - De-Dupe subvolume
+
+## Step 8 - Update primary GRUB
+
+## Step 9 - Reboot into new OS
+
+# Set up User Account
 
 ## Step 1 - Mount shared volume
 ```shell
@@ -51,6 +102,9 @@ ln -s ~/Shared/emeraldinspirations/Videos/ Videos
 
 ln -s ~/Shared/emeraldinspirations/VirtualBox\ VMs/ VirtualBox\ VMs
 ```
+
+## Step 2a - Generate RSA Key-pair
+
 ## Step 3 - Install Applications
 Applications I have installed in alphabetical order.
 
