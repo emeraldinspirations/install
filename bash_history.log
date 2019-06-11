@@ -1,0 +1,7 @@
+ln -s ~/Install/bash/.bash_aliases ~/.bash_aliases
+
+# Reference ~/.bashrc
+rm ~/.bashrc
+ln -s ~/Install/bash/.bashrc ~/.bashrc
+
+source ~/.bashrc    # Refresh
