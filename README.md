@@ -167,7 +167,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [dvd](https://github.com/emeraldinspirations/install/tree/dvd)
 - font-awesome
 - [gimp](https://github.com/emeraldinspirations/install/tree/gimp)
-- git
+- [git](https://github.com/emeraldinspirations/install/tree/git)
 - gksu
 - google-chrome
 - [grub](https://github.com/emeraldinspirations/install/tree/grub)
