@@ -171,7 +171,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - gksu
 - google-chrome
 - [grub](https://github.com/emeraldinspirations/install/tree/grub)
-- i3
+- [i3](https://github.com/emeraldinspirations/install/tree/i3)
 - i3blocks
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
 - lamp
