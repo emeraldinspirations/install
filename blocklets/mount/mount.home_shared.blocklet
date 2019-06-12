@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mountStat=$(mount | grep /mnt/home_shared);
+
+if [ "$mountStat" '==' "/dev/mapper/linuxvg-home_shared on /mnt/home_shared type btrfs (rw,relatime,space_cache,subvolid=5,subvol=/)" ]; then
+  echo "  "
+else
+  echo "<span color='#D80022'>  </span>"
+fi
