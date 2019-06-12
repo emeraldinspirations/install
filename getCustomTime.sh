@@ -43,8 +43,16 @@
     monthAbbr='♑'
   fi
 
-  weekNum=$(date '+%U');
   monthdayNum=$(date '+%d');
+  utcmodayNum=$(date --utc '+%d');
+
+  utcDayOffset='+0T'
+  if [ $monthdayNum '!=' $utcmodayNum ]; then
+    utcDayOffset='+1T'
+  fi
+
+  weekNum=$(date '+%V');
   timeFormatted=$(date '+%H%M:%S');
+  iso8601=$(date --utc '+%HZ');
   
-  echo "${weekNum}${weekdayAbbr}${monthdayNum}${monthAbbr} ${timeFormatted}"
+  echo "${utcDayOffset}${iso8601} ${weekNum}${weekdayAbbr}${monthdayNum}${monthAbbr} ${timeFormatted}"

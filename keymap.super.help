@@ -16,7 +16,7 @@
  b -
  c -
  d - rofi -show run
- e -
+ e - atom
  f - fullscreen
  g - google-chrome
  h - split h

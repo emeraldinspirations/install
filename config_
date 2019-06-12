@@ -135,6 +135,7 @@ bindsym Mod4+Return $term
 bindcode $mod+104 $term
 
 bindsym $mod+g exec google-chrome
+bindsym $mod+e exec atom
 
 # kill focused window
 bindsym Mod4+Shift+q kill
@@ -325,7 +326,7 @@ bindsym $mod+i border normal
 # Window colors                 #
 #################################
 #                         border                background            text                  indicator
-client.focused            $color-black-1        $color-black-1        $color-primary-0      $color-tertiary-0
+client.focused            $color-black-0        $color-primary-0      $color-black-0        $color-tertiary-0
 client.unfocused          $color-black-0        $color-black-2        $color-black-0        $color-tertiary-0
 client.focused_inactive   $color-black-0        $color-black-2        $color-black-0        $color-tertiary-0
 client.urgent             $color-complement-4   $color-complement-4   $color-black-2        $color-tertiary-0
@@ -333,10 +334,10 @@ client.urgent             $color-complement-4   $color-complement-4   $color-bla
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+        status_command i3blocks -c ~/Install/i3blocks/i3blocks.conf
 	mode hide
-	position top
-	font xft:Cousine, FontAwesome 8
+	position bottom
+	font xft:Cousine, FontAwesome 10
 	colors {
 		background          $color-black-1
 		statusline          #ffffff
@@ -356,7 +357,7 @@ bar {
 
 bindsym $mod+Control+d        exec date +"%Y-%m-%d %T" | xclip -selection c
 bindsym $mod+Control+Shift+d  exec date +%s | xclip -selection c
-#bindsym $mod+Control+w        exec i3-sensible-terminal -e iwlist wlp4s0 scan
+bindsym $mod+Control+w        exec gksu iwlist wlp4s0 scan
 
 #################################
 # Autostart Applications	#
@@ -404,6 +405,12 @@ exec_always --no-startup-id feh --bg-scale ~/Install/i3/wallpaper/current.png
 # Print screen                  #
 #################################
 bindsym Print exec gnome-screenshot --interactive
+
+#################################
+# Caps / Num Lock               #
+#################################
+bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 
 #################################
 # Font Awesome			#

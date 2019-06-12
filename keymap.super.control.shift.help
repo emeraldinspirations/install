@@ -15,7 +15,7 @@
  a - 
  b -
  c - 
- d - 
+ d - date +%s | xclip -selection c
  e - 
  f - 
  g -
