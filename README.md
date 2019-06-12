@@ -172,7 +172,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - google-chrome
 - [grub](https://github.com/emeraldinspirations/install/tree/grub)
 - [i3](https://github.com/emeraldinspirations/install/tree/i3)
-- i3blocks
+- [i3blocks](https://github.com/emeraldinspirations/install/tree/i3blocks)
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
 - lamp
 - [librecad](https://github.com/emeraldinspirations/install/tree/librecad)
