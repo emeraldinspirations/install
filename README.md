@@ -109,6 +109,8 @@ ln -s /mnt/home_shared Shared
 
 ## Step 2 - Replace shared folders with symbolic links
 ```shell
+ln -s ~/Shared/emeraldinspirations/Archive/ Archive
+
 ln -s ~/Shared/emeraldinspirations/Backups/ Backups
 
 ln -s ~/Shared/emeraldinspirations/Clients/ Clients
