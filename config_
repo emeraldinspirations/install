@@ -360,8 +360,19 @@ bindsym $mod+Control+Shift+d  exec date +%s | xclip -selection c
 bindsym $mod+Control+w        exec gksu iwlist wlp4s0 scan
 
 #################################
+# Mount                         #
+#################################
+
+# ~/Install/i3/script/mountShared.sh.md
+bindsym $mod+Control+s        exec /home/emeraldinspirations/Install/i3/script/mountShared.sh
+
+#################################
 # Autostart Applications	#
 #################################
+
+# Sudo Prompt
+# ~/Install/i3/script/mountShared.sh.md
+exec_always --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 
 # Desktop Image
 exec --no-startup-id nitrogen --restore
