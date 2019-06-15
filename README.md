@@ -181,7 +181,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - numlockx
 - phpdocumentor
 - phpunit
-- ranger
+- [ranger](https://github.com/emeraldinspirations/install/tree/ranger)
 - slack
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
