@@ -184,6 +184,8 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - phpdocumentor
 - phpunit
 - [ranger](https://github.com/emeraldinspirations/install/tree/ranger)
+- [sc-im](https://github.com/emeraldinspirations/install/tree/sc-im)
+- sc-im
 - slack
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
