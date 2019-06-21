@@ -197,6 +197,9 @@ bindsym Mod4+w layout toggle split
 # toggle tiling / floating
 bindsym Mod4+Shift+space floating toggle
 
+# Picture-in-Picture - Todo: Resize window & place at bottom right
+bindsym $mod+Shift+p sticky toggle
+
 # change focus between tiling / floating windows
 bindsym Mod4+space focus mode_toggle
 
@@ -355,8 +358,8 @@ bar {
 # Quick Commands        	#
 #################################
 
-bindsym $mod+Control+d        exec date +"%Y-%m-%d %T" | xclip -selection c
-bindsym $mod+Control+Shift+d  exec date +%s | xclip -selection c
+bindsym $mod+Control+d        exec date +"%Y-%m-%d %T" | tr -d '\n' | xclip -selection c
+bindsym $mod+Control+Shift+d  exec date +%s | tr -d '\n' | xclip -selection c
 bindsym $mod+Control+w        exec gksu iwlist wlp4s0 scan
 
 #################################
