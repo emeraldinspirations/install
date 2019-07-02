@@ -186,7 +186,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [ranger](https://github.com/emeraldinspirations/install/tree/ranger)
 - [sc-im](https://github.com/emeraldinspirations/install/tree/sc-im)
 - sc-im
-- slack
+- [slack](https://github.com/emeraldinspirations/install/tree/slack)
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
 - [zsh](https://github.com/emeraldinspirations/install/tree/zsh)
