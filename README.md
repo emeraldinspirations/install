@@ -178,14 +178,14 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
 - lamp
 - [librecad](https://github.com/emeraldinspirations/install/tree/librecad)
-- [nano](https://github.com/emeraldinspirations/install/tree/nano)
+- ~~[nano](https://github.com/emeraldinspirations/install/tree/nano)~~ *(Dropped
+  in favor of **vim**)*
 - [nodejs](https://github.com/emeraldinspirations/install/tree/nodejs)
 - numlockx
 - phpdocumentor
 - phpunit
 - [ranger](https://github.com/emeraldinspirations/install/tree/ranger)
 - [sc-im](https://github.com/emeraldinspirations/install/tree/sc-im)
-- sc-im
 - [slack](https://github.com/emeraldinspirations/install/tree/slack)
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
