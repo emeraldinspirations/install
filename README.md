@@ -161,6 +161,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - ~~atom~~ *(Dropped in favor of **vim**)*
 - [bash](https://github.com/emeraldinspirations/install/tree/bash)
 - [bluez-tools](https://github.com/emeraldinspirations/install/tree/bluez-tools)
+- [chromium](https://github.com/emeraldinspirations/install/tree/chromium)
 - clustergit
 - composer
 - [compton](https://github.com/emeraldinspirations/install/tree/compton)
@@ -171,7 +172,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [gimp](https://github.com/emeraldinspirations/install/tree/gimp)
 - [git](https://github.com/emeraldinspirations/install/tree/git)
 - gksu
-- google-chrome
+- ~~google-chrome~~ *(Droped in favor of **chromium**)*
 - [grub](https://github.com/emeraldinspirations/install/tree/grub)
 - [i3](https://github.com/emeraldinspirations/install/tree/i3)
 - [i3blocks](https://github.com/emeraldinspirations/install/tree/i3blocks)
