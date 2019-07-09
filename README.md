@@ -157,6 +157,7 @@ In order to clone the files from the repo, run the following script replacing [a
 git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/install.git ~/Install/[app]
 ```
 
+- anbox
 - [apache2](https://github.com/emeraldinspirations/install/tree/apache2)
 - ~~atom~~ *(Dropped in favor of **vim**)*
 - [bash](https://github.com/emeraldinspirations/install/tree/bash)
