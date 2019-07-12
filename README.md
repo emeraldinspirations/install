@@ -146,6 +146,9 @@ ln -s ~/Shared/emeraldinspirations/Videos/ Videos
 ln -s ~/Shared/emeraldinspirations/VirtualBox\ VMs/ VirtualBox\ VMs
 ```
 
+> Note: Templates are managed through a seperate
+> [Repo](https://github.com/emeraldinspirations/template)
+
 ## Step 2a - Generate RSA Key-pair
 
 ## Step 3 - Install Applications
