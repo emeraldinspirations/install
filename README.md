@@ -182,7 +182,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [i3](https://github.com/emeraldinspirations/install/tree/i3)
 - [i3blocks](https://github.com/emeraldinspirations/install/tree/i3blocks)
 - [ionic](https://github.com/emeraldinspirations/install/tree/ionic)
-- lamp
+- ~~lamp~~ *(Dropped in favor of **docker**)* 
 - [librecad](https://github.com/emeraldinspirations/install/tree/librecad)
 - ~~[nano](https://github.com/emeraldinspirations/install/tree/nano)~~ *(Dropped
   in favor of **vim**)*
