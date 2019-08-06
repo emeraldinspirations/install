@@ -1,6 +1,0 @@
-sudo apt-get install git
-git config --global user.name "Juniper Barlett"
-git config --global user.email emeraldinspirations+ovh@gmail.com
-git config --global core.editor vim
-git config --list
-ssh -T git@github.com
