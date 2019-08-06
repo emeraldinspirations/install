@@ -194,6 +194,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [rust](https://github.com/emeraldinspirations/install/tree/rust)
 - [sc-im](https://github.com/emeraldinspirations/install/tree/sc-im)
 - [slack](https://github.com/emeraldinspirations/install/tree/slack)
+- [Ubuntu 19.04](https://github.com/emeraldinspirations/install/tree/ubuntu_19_04) *(Configuration specific to Ubuntu version 19.04)*
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
 - [zsh](https://github.com/emeraldinspirations/install/tree/zsh)
