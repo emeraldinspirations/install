@@ -200,6 +200,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - scrot *(Installed with **i3**)*
 - [slack](https://github.com/emeraldinspirations/install/tree/slack)
 - [Ubuntu 19.04](https://github.com/emeraldinspirations/install/tree/ubuntu_19_04) *(Configuration specific to Ubuntu version 19.04)*
+- [unclutter](https://github.com/emeraldinspirations/install/tree/unclutter) *(Installed with **i3**)*
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
 - xautolock *(Installed with **i3**)*
