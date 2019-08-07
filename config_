@@ -385,6 +385,9 @@ exec_always --no-startup-id feh --bg-scale ~/Install/i3/wallpaper/current.png
 # Anamations
 #exec --no-startup-id xcompmgr
 
+# Hide mouse on idle
+exec_always unclutter -idle 5 -root
+
 #################################
 # Application Defaults		#
 #################################
