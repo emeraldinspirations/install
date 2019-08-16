@@ -52,7 +52,7 @@
   fi
 
   weekNum=$(date '+%V');
-  timeFormatted=$(date '+%H%M:%S');
+  timeFormatted=$(date '+%s %H%M:%S');
   iso8601=$(date --utc '+%HZ');
   
   echo "${utcDayOffset}${iso8601} ${weekNum}${weekdayAbbr}${monthdayNum}${monthAbbr} ${timeFormatted}"
