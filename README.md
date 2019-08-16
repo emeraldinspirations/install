@@ -204,6 +204,8 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
 - xautolock *(Installed with **i3**)*
+- [xclip](https://github.com/emeraldinspirations/install/blob/i3/xclip.md)
+  *(Installed with **i3**)*
 - [zsh](https://github.com/emeraldinspirations/install/tree/zsh)
 
 # install
