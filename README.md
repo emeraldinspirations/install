@@ -179,6 +179,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [git](https://github.com/emeraldinspirations/install/tree/git)
 - gksu
 - ~~google-chrome~~ *(Droped in favor of **chromium**)*
+- gparted
 - [grub](https://github.com/emeraldinspirations/install/tree/grub)
 - [i3](https://github.com/emeraldinspirations/install/tree/i3)
 - [i3blocks](https://github.com/emeraldinspirations/install/tree/i3blocks) *(Installed with **i3**)*
