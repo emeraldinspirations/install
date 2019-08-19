@@ -25,7 +25,7 @@ Installation Instructions:
 > Note: This step is unnecessary as the program is installed in my
   [i3](https://github.com/emeraldinspirations/install/tree/i3) instructions
 ```shell
-sudo apt-get install xcopy
+sudo apt-get install xclip
 ```
 
 Configuration Instructions:
