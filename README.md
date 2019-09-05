@@ -173,6 +173,8 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [docker](https://github.com/emeraldinspirations/install/tree/docker)
 - [dropbox](https://github.com/emeraldinspirations/install/tree/dropbox)
 - [dvd](https://github.com/emeraldinspirations/install/tree/dvd)
+- exfat-fuse *(Installed with **ubuntu**)*
+- exfat-utils *(Installed with **ubuntu**)*
 - feh *(Installed with **i3**)*
 - fonts-font-awesome *(Installed with **i3**)*
 - [gimp](https://github.com/emeraldinspirations/install/tree/gimp)
