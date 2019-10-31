@@ -1,7 +1,7 @@
 set number relativenumber
 
 highlight ColorColumn ctermbg=black
-set colorcolumn=81
+set colorcolumn=73,81
 
 set listchars=tab:▸\ ,trail:·
 set list
