@@ -177,6 +177,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - exfat-utils *(Installed with **ubuntu**)*
 - feh *(Installed with **i3**)*
 - fonts-font-awesome *(Installed with **i3**)*
+- [freecad](https://github.com/emeraldinspirations/install/tree/freecad)
 - [gimp](https://github.com/emeraldinspirations/install/tree/gimp)
 - [git](https://github.com/emeraldinspirations/install/tree/git)
 - gksu
