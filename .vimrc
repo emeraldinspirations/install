@@ -14,3 +14,5 @@ set shiftwidth=0
 set expandtab
 
 set showcmd
+
+set hlsearch
