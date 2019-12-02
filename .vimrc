@@ -16,3 +16,8 @@ set expandtab
 set showcmd
 
 set hlsearch
+
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
