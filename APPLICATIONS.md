@@ -17,6 +17,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - clustergit
 - composer
 - [compton](https://github.com/emeraldinspirations/install/tree/compton) *(Installed with **i3**)*
+- [discord](https://github.com/emeraldinspirations/install/tree/discord)
 - [docker](https://github.com/emeraldinspirations/install/tree/docker)
 - [dropbox](https://github.com/emeraldinspirations/install/tree/dropbox)
 - [dvd](https://github.com/emeraldinspirations/install/tree/dvd)
