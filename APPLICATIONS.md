@@ -55,6 +55,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [unclutter](https://github.com/emeraldinspirations/install/tree/unclutter) *(Installed with **i3**)*
 - [vim](https://github.com/emeraldinspirations/install/tree/vim)
 - vlc
+- [vscode](https://github.com/emeraldinspirations/install/tree/vscode)
 - xautolock *(Installed with **i3**)*
 - [xclip](https://github.com/emeraldinspirations/install/blob/i3/xclip.md)
   *(Installed with **i3**)*
