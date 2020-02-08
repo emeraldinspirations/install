@@ -64,5 +64,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "rust.clippy_preference": "on",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true
 }

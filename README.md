@@ -11,6 +11,13 @@ mkdir --parents ~/Install/vscode/Downloads/; mv ~/Downloads/code_*_amd64.deb $_
 sudo dpkg -i `ls -d ~/Install/vscode/Downloads/code_*_amd64.deb | sort | tail -n1`
 ```
 
+## Install Dependencies
+In order to use the Git commands inside VSCode `ssh-askpass` must be installed
+
+```bash
+sudo apt install ssh-askpass
+```
+
 ## Installed Extensions
 * janisdd.vscode-edit-csv
 * johnpapa.vscode-peacock
