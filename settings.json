@@ -62,5 +62,7 @@
     "editor.renderWhitespace": "all",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "rust.clippy_preference": "on",
+    "editor.formatOnSave": true
 }
