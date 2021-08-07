@@ -45,6 +45,7 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - numlockx
 - phpdocumentor
 - phpunit
+- [quick_sync](https://github.com/emeraldinspirations/install/tree/quick_backup)
 - [ranger](https://github.com/emeraldinspirations/install/tree/ranger)
 - rofi *(Installed with **i3**)*
 - [rust](https://github.com/emeraldinspirations/install/tree/rust)
