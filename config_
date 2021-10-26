@@ -134,7 +134,8 @@ set $term exec i3-sensible-terminal
 bindsym Mod4+Return $term
 bindcode $mod+104 $term
 
-bindsym $mod+g exec google-chrome
+bindsym $mod+g exec chromium-browser
+bindsym $mod+c exec code
 bindsym $mod+e exec atom
 
 # kill focused window
@@ -361,6 +362,7 @@ bar {
 bindsym $mod+Control+d        exec date +"%Y-%m-%d %T" | tr -d '\n' | xclip -selection c
 bindsym $mod+Control+Shift+d  exec date +%s | tr -d '\n' | xclip -selection c
 bindsym $mod+Control+w        exec gksu iwlist wlp4s0 scan
+bindsym $mod+Control+u        exec xclip -o | url_encode | tr -d '\n' | xclip -selection c
 
 #################################
 # Mount                         #
