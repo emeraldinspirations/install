@@ -1,0 +1,6 @@
+alias gitlog='clear; git log --oneline --decorate --all --graph; echo '\''=========='\''; git status'
+alias gitlog1='git log --oneline --decorate --all --graph -1'
+alias gitlogt='git log --oneline --decorate --all --graph --since="12AM"'
+alias ls='ls --color=tty'
+alias toLower='tr A-Z a-z'
+alias toUpper='tr a-z A-Z'
