@@ -23,12 +23,15 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - Terminal Emulator: alacritty
 - Terminal: zsh
 
+> https://gitlab.com/emeraldinspirations/install/-/blob/master/APPLICATIONS.md
+
+> https://gitlab.com/emeraldinspirations/install/-/blob/apache2/README.md
+
 ### Alphabetical
 
 - alacritty 
 - anbox
-- ~~[apache2](https://github.com/emeraldinspirations/install/tree/apache2)~~
-  _(Dropped in favor of **docker**)_
+- ~~[apache2](../apache2/README.md)~~ _(Dropped in favor of **docker**)_
 - ~~atom~~ _(Dropped in favor of **vim**)_
 - [bash](https://github.com/emeraldinspirations/install/tree/bash)
 - [bluez-tools](https://github.com/emeraldinspirations/install/tree/bluez-tools)
@@ -70,12 +73,12 @@ git clone -o gitHub -b [app] --single-branch git@github.com:emeraldinspirations/
 - [nodejs](https://github.com/emeraldinspirations/install/tree/nodejs)
 - numlockx
 - nushell 
-- pavucontrol - gui alternative for alsamixer 
+- pavucontrol - gui alternative for alsamixer
 - phpdocumentor
 - phpunit
 - [quick_sync](https://github.com/emeraldinspirations/install/tree/quick_backup)
 - ~~[ranger](https://github.com/emeraldinspirations/install/tree/ranger)~~
-  \_(Dropped in favor of **joshuto**)_
+  \_(Dropped in favor of **joshuto**)\_
 - reduce_podcast (my app)
 - rofi _(Installed with **i3**)_
 - [rust](https://github.com/emeraldinspirations/install/tree/rust)
